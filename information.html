@@ -1,0 +1,44 @@
+<html>
+  
+<div id="" class="tabcontent">
+  <h3>Location</h3>
+  <p>Included are the coordinates associated with the location, along with the annual number of vistitors to each site.</p>
+  {% for coordinates in get_location_coordinates() %}
+    <div class=flash>
+    {{ message }}
+    </div>
+</div>  
+
+</div>
+  
+<div id="" class="tabcontent">
+  <h3>Fauna</h3>
+  <p>These are fauna typically encountered in the area, encounter rates depend on a number of factors from migratory patterns, abundance of food, or the presence of other wildlife.</p>
+  {% for fauna in get_location_fauna() %}
+    <div class=flash>
+    {{ message }}
+    </div>
+</div>
+
+
+<div id="" class="tabcontent">
+  <h3>Flora</h3>
+  <p>The following are an assortment of flora endemic to the region, share a sighting if you manage to spot anything that catches your eye!</p>
+  {% for flora in get_location_flora() %}
+    <div class=flash>
+    {{ message }}
+    </div>
+</div>
+
+</div>
+
+<div id="" class="tabcontent">
+  <h3>Features</h3>
+  <p>Here are the features present in at the selected location, these include unique landmarks and </p>
+  {% for features in get_location_features() %}
+    <div class=flash>
+    {{ message }}
+    </div>
+</div>
+
+</html>
