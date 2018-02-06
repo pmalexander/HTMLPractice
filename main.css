@@ -36,7 +36,13 @@ body {
 /* Sets positional parameters for section layout */
 .pagefooter,
 .tips-section,
-.tools-section{
+.tools-section,
+.search-section
+.location-section,
+.fauna-section, 
+.flora-section,
+.features-section{
+    
  /* Typography Declarations */
   font-family: "Gentium Book Basic", Georgia, serif;
   font-size: 1.5em;
@@ -48,6 +54,13 @@ body {
 
 .tips-section > p,
 .tools-section > p,
+.search-section > p,
+.location-section > p,
+.fauna-section > p,
+.flora-section > p,
+.features-section > p,
+.type-section > p,
+.description-section > p,
 .pagefooter > p 
     /* Typography Declarations */
     font-weight: 300;
