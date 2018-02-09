@@ -75,67 +75,21 @@
       
         <br></br>
 
-<div class="container" style="margin-top:20px;">
-<div class="row">
-<div class="container-fluid">
-<div class="col-xs-6">
-<h1>Equipment Checklist</h1>
-<div class="well" style="max-height: 300px;overflow: auto;">
-<ul id="check-list-box" class="list-group checked-list-box">
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-<label class="form-check-label" for="defaultCheck1">Rope</label>
+<div id="myDIV" class="header">
+  <h1>Equipment Checklist</h1>
+  <input type="text" id="myInput" placeholder="Add item and amount...">
+  <span onclick="newElement()" class="addBtn">Add Item</span>
 </div>
-<div class="form-check"> 
-<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-<label class="form-check-label" for="defaultCheck2">Tent</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
-<label class="form-check-label" for="defaultCheck3">Sleeping Bag</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
-<label class="form-check-label" for="defaultCheck4">Lantern</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
-<label class="form-check-label" for="defaultCheck5">Matches</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
-<label class="form-check-label" for="defaultCheck6">Tinder</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
-<label class="form-check-label" for="defaultCheck7">Camp Hatchet</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
-<label class="form-check-label" for="defaultCheck8">Lantern</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
-<label class="form-check-label" for="defaultCheck9">Lantern Oil</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
-<label class="form-check-label" for="defaultCheck10">Batteries</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="defaultCheck11">
-<label class="form-check-label" for="defaultCheck11">Walking Stick</label>  
-</div>
-<br></br>
-<div class="container-fluid">
-<label for="exampleFormControlTextarea1" class=text-center>Additional Items / Notes</label>
-<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
+
+<ul id="myUL">
 </ul>
-</div>
-<button class="btn btn-primary col-xs-12" id="get-checked-data">Save List and Notes</button>
-        <!-- <pre id="display-json"></pre> -->
-</div>
-</div>
-</div>
-</div>
+
+<button class="btn btn-primary col-xs-12" id="get-checked-data">Save List</button>
+
+<footer>
+<footer class="pagefooter">
+<ul>
+<dt><a href="">Back to top</a></dt>
+</ul>
+</footer>
+</html>
